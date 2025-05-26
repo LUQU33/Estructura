@@ -1,0 +1,1 @@
+// Manejo de eventos en JavaScript, incluyendo el registro de eventos y la propagación.

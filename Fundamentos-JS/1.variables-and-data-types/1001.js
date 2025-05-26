@@ -1,0 +1,1 @@
+// Declaración de variables usando var, let y const, y comprensión de tipos primitivos y objetos.

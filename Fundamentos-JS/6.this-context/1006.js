@@ -1,0 +1,1 @@
+// Cómo funciona el contexto de ejecución y cómo cambiarlo en JavaScript.
