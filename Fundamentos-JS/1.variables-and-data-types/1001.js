@@ -41,22 +41,12 @@ let numeroGrande = 1234567891011121314151617181920n;
 // 3. TIPOS DE OBJETOS
 // -----------------------------------
 
-// Object (estructura de datos con propiedades)
+// Object
 let persona = {
     nombre: "Pedro",
     pais: "Argentina",
     edad: 21
 };
 
-// Array (lista ordenada de valores)
+// Array
 let lenguajes = ["JavaScript", "Python", "PHP", "C++"];
-
-// Function (bloque de código reutilizable)
-function saludar() {
-    console.log("Hola desde una función :)")
-}
-console.log(saludar());
-
-// Date (fecha y hora)
-let fechaActual = new Date();
-console.log(fechaActual);

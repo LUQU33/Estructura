@@ -16,14 +16,14 @@ function sumar(a, b) {
 
 sumar(2, 3); // Muestra: Resultado: 5
 
-// 2. Función anónima (sin nombre, guardada en una variable)
+// 2. Función anónima
 let saludarAnonima = function () {
     console.log("Hola desde una función anónima");
 };
 
-saludarAnonima(); // Se usa igual que una normal
+saludarAnonima();
 
-// 3. Función flecha (forma corta de escribir una función)
+// 3. Función flecha
 let saludarFlecha = () => {
     console.log("Hola desde una función flecha");
 };

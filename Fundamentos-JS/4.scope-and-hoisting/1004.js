@@ -4,14 +4,13 @@ function saludo() {
     console.log(mensaje);
 }
 
-saludo();
-// console.log(mensaje); // Error: mensaje no existe aquí
+console.log(mensaje);
 
 if (true) {
     let dentroIf = "Dentro del if";
     console.log(dentroIf);
 }
-// console.log(dentroIf); // Error: dentroIf no existe aquí
+console.log(dentroIf); // dentroIf is not defined
 
 let global = "Variable global";
 
@@ -30,26 +29,3 @@ let apellido = "Gómez";
 
 // console.log(edad); // Error
 const edad = 30;
-
-// Diferencia var y let
-function ejemploVar() {
-    var x = 10;
-    if (true) {
-    var x = 20;
-    console.log("Dentro if:", x); // 20
-    }
-  console.log("Fuera if:", x); // 20
-}
-
-ejemploVar();
-
-function ejemploLet() {
-    let y = 10;
-    if (true) {
-    let y = 20;
-    console.log("Dentro if:", y); // 20
-    }
-  console.log("Fuera if:", y); // 10
-}
-
-ejemploLet();
